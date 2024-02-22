@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_xstate_v4_v5_min_error_repro_xstate_v4_v5_min_error_reproTests : NSObject
+@end
+@implementation PodsDummy_Pods_xstate_v4_v5_min_error_repro_xstate_v4_v5_min_error_reproTests
+@end
