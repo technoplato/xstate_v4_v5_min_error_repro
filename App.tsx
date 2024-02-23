@@ -40,7 +40,7 @@ function App(): React.JSX.Element {
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
           }}>
-          <Section title="xstate v4 side by side v5 install" />
+          <Section title="__xstate v4 side by side v5 install" />
           <MyXstateV4Component />
           <MyXstateV5Component />
         </View>
