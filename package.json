@@ -7,11 +7,16 @@
     "ios": "react-native run-ios",
     "lint": "eslint .",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "postinstall": "node scripts/xstate5-react-script.js"
   },
   "dependencies": {
+    "@xstate/react": "3.2.1",
+    "@xstate5/react": "npm:@xstate/react@4.1.0",
     "react": "18.2.0",
-    "react-native": "0.73.4"
+    "react-native": "0.73.4",
+    "xstate": "4.37.1",
+    "xstate5": "npm:xstate@5.8.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
